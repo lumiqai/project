@@ -9,3 +9,6 @@ A854A566-86B1-49B2-BABD-CBC3676CC7E3
 0DACB982-367B-4B42-B6A8-62D84583AEB0
 BC8ED28F-76B4-4A4B-8D32-B902C91ADEC2
 2C10AF4F-1AD3-4A25-8686-BC7AD99BB181
+
+
+/opt/vespa/bin/vespa-visit --jsonoutput --selection "profile_mapping.sddocname = 'profile_mapping'" > /data/dedupe/mapping.json
